@@ -1,18 +1,25 @@
 {
   "meta": {
-    "siteTitle": "Portfolio — Valisoa | AI, Software & Data Engineer",
-    "description": "Portfolio professionnel de Valisoa : Fullstack Developer, AI Engineer et Data Engineer, spécialisé en applications intelligentes, data platforms et analytics industriels.",
+    "siteTitle": "Portfolio — Valisoa",
+    "description": "Portfolio professionnel de Valisoa Nathanaël Harijaona, AI Engineer, Data Engineer, Data Scientist et développeur Fullstack, spécialisé en Data Engineering, Machine Learning, NLP, Computer Vision, BI et systèmes d'aide à la décision.",
     "language": "fr",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "keywords": [
       "AI Engineer",
-      "Fullstack Developer",
       "Data Engineer",
-      "React",
+      "Data Scientist",
+      "Fullstack Developer",
+      "Machine Learning",
+      "NLP",
+      "Computer Vision",
+      "ReactJS",
       "Python",
-      "RAG",
-      "Data Engineering",
-      "Power BI"
+      "PostgreSQL",
+      "Apache Airflow",
+      "dbt",
+      "Power BI",
+      "Metabase",
+      "Hugging Face"
     ]
   },
   "theme": {
@@ -68,18 +75,18 @@
     "descriptor": "AI · DATA · SOFTWARE"
   },
   "personal": {
-    "firstName": "Valisoa",
-    "lastName": "",
-    "fullName": "Valisoa",
-    "role": "Fullstack Developer & AI Engineer",
-    "shortRole": "AI Engineer • Fullstack Developer • Data Engineer",
-    "location": "Madagascar",
-    "email": "",
-    "phone": "",
+    "firstName": "Valisoa Nathanaël",
+    "lastName": "HARIJAONA",
+    "fullName": "Valisoa Nathanaël HARIJAONA",
+    "role": "AI Engineer / Data Engineer / Data Scientist",
+    "shortRole": "AI Engineer • Data Engineer • Fullstack Developer",
+    "location": "Mahitsy, Antananarivo, Madagascar",
+    "email": "valisoaharijaona@gmail.com",
+    "phone": "+261 34 41 439 97",
     "profileImage": "",
     "resumeUrl": "",
     "availableForWork": true,
-    "resumeLabel": "CV"
+    "resumeLabel": "Télécharger mon CV"
   },
   "navigation": [
     {
@@ -116,9 +123,9 @@
     "eyebrow": "AI • DATA • SOFTWARE",
     "greeting": "Bonjour, je suis",
     "title": "Valisoa",
-    "subtitle": "Fullstack Developer & AI Engineer",
-    "description": "Je transforme les données, l'intelligence artificielle et le logiciel en solutions numériques utiles, fiables et orientées décision.",
-    "availabilityText": "Disponible pour des projets ambitieux",
+    "subtitle": "AI Engineer & Data Engineer",
+    "description": "Je conçois des pipelines de données, des systèmes d'intelligence artificielle et des applications capables de transformer les données en solutions fiables, exploitables et orientées décision.",
+    "availabilityText": "Ouvert aux opportunités en AI, Data & Software Engineering",
     "primaryButton": {
       "label": "Voir mes projets",
       "target": "#projects",
@@ -131,16 +138,16 @@
     },
     "technologies": [
       {
-        "name": "React",
-        "logo": "react",
-        "color": "#61DAFB",
-        "url": "https://react.dev/"
-      },
-      {
         "name": "Python",
         "logo": "python",
         "color": "#3776AB",
         "url": "https://www.python.org/"
+      },
+      {
+        "name": "React",
+        "logo": "react",
+        "color": "#61DAFB",
+        "url": "https://react.dev/"
       },
       {
         "name": "PostgreSQL",
@@ -153,15 +160,27 @@
         "logo": "airflow",
         "color": "#017CEE",
         "url": "https://airflow.apache.org/"
+      },
+      {
+        "name": "dbt",
+        "logo": "dbt",
+        "color": "#FF694B",
+        "url": "https://www.getdbt.com/"
+      },
+      {
+        "name": "Power BI",
+        "logo": "powerbi",
+        "color": "#F2C811",
+        "url": "https://powerbi.microsoft.com/"
       }
     ],
     "visual": {
-      "badge": "ENGINEERING PROFILE",
+      "badge": "AI & DATA ENGINEERING",
       "headline": "Intelligence + Data + Software",
-      "subline": "Des systèmes pensés de la donnée brute jusqu'à l'expérience utilisateur.",
+      "subline": "De la donnée brute au pipeline, du modèle IA au produit exploitable.",
       "nodes": [
         {
-          "label": "AI",
+          "label": "AI / ML",
           "icon": "brain"
         },
         {
@@ -179,24 +198,29 @@
   "about": {
     "enabled": true,
     "eyebrow": "À PROPOS",
-    "title": "Construire des solutions qui relient logiciel, IA et données",
-    "description": "Mon approche combine développement fullstack, ingénierie des données et intelligence artificielle. Je m'intéresse particulièrement aux systèmes qui transforment des données opérationnelles en applications, automatisations et outils d'aide à la décision.",
-    "secondaryDescription": "Je privilégie les architectures pragmatiques, maintenables et observables : une solution doit être techniquement solide, mais surtout réellement exploitable par les équipes métier.",
+    "title": "Relier intelligence artificielle, ingénierie des données et développement logiciel",
+    "description": "Ingénieur IA & Data en Master 2, je travaille sur la conception de pipelines de données modernes, l'analyse de données, le Machine Learning, le NLP, la Computer Vision et le développement Fullstack. Mon objectif est de transformer des besoins métier en systèmes fiables, mesurables et réellement exploitables.",
+    "secondaryDescription": "Mon parcours combine Génie Logiciel, bases de données, Data Science et Intelligence Artificielle. J'accorde une attention particulière à la qualité des données, à l'automatisation, à la maintenabilité des architectures et à la restitution claire des résultats aux utilisateurs métier.",
     "highlights": [
-      {
-        "icon": "brain",
-        "title": "AI Engineering",
-        "text": "RAG, LLM, Text-to-SQL, ML et expérimentation appliquée."
-      },
       {
         "icon": "workflow",
         "title": "Data Engineering",
-        "text": "ETL/ELT, orchestration, data warehouse et qualité des données."
+        "text": "Airflow, dbt, PostgreSQL, ETL/ELT, architecture Médaillon et qualité automatisée des données."
+      },
+      {
+        "icon": "brain",
+        "title": "AI & Machine Learning",
+        "text": "NLP, Transformers, fine-tuning BERT/CamemBERT, RAG, Machine Learning et Computer Vision."
+      },
+      {
+        "icon": "chart",
+        "title": "Analytics & Decision Support",
+        "text": "Power BI, Metabase, Excel, segmentation, KPI et systèmes d'aide à la décision."
       },
       {
         "icon": "code",
         "title": "Software Engineering",
-        "text": "Applications React, API, temps réel et intégration de systèmes."
+        "text": "ReactJS, Node.js, Laravel, API, bases de données et applications web orientées métier."
       }
     ]
   },
@@ -204,34 +228,41 @@
     "enabled": true,
     "items": [
       {
-        "label": "Projets structurants",
-        "value": "4+",
-        "icon": "folder"
-      },
-      {
-        "label": "Technologies pratiquées",
-        "value": "20+",
-        "icon": "code"
-      },
-      {
-        "label": "Domaines complémentaires",
-        "value": "3",
+        "label": "Domaines d'expertise",
+        "value": "4",
         "suffix": "piliers",
         "icon": "layers"
       },
       {
-        "label": "Orientation impact",
-        "value": "100%",
-        "icon": "gauge"
+        "label": "Technologies & outils",
+        "value": "15+",
+        "icon": "code"
+      },
+      {
+        "label": "Projets & réalisations",
+        "value": "8+",
+        "icon": "folder"
+      },
+      {
+        "label": "Parcours actuel",
+        "value": "M2",
+        "suffix": "IA",
+        "icon": "brain"
       }
     ]
   },
   "techStack": {
     "enabled": true,
     "eyebrow": "STACK",
-    "title": "Technologies principales",
-    "description": "Un socle transversal pour concevoir des produits, pipelines et systèmes intelligents de bout en bout.",
+    "title": "Technologies et outils",
+    "description": "Un socle technique couvrant développement logiciel, intelligence artificielle, data engineering, bases de données et business intelligence.",
     "items": [
+      {
+        "name": "Python",
+        "category": "AI & Data",
+        "icon": "python",
+        "url": ""
+      },
       {
         "name": "ReactJS",
         "category": "Frontend",
@@ -245,27 +276,21 @@
         "url": ""
       },
       {
-        "name": "Tailwind CSS",
-        "category": "Frontend",
-        "icon": "tailwind",
-        "url": ""
-      },
-      {
-        "name": "Python",
-        "category": "AI & Data",
-        "icon": "python",
-        "url": ""
-      },
-      {
-        "name": "FastAPI",
-        "category": "Backend",
-        "icon": "zap",
-        "url": ""
-      },
-      {
         "name": "Node.js",
         "category": "Backend",
         "icon": "server",
+        "url": ""
+      },
+      {
+        "name": "Laravel",
+        "category": "Backend",
+        "icon": "code",
+        "url": ""
+      },
+      {
+        "name": "SQL",
+        "category": "Data",
+        "icon": "database",
         "url": ""
       },
       {
@@ -275,20 +300,20 @@
         "url": ""
       },
       {
-        "name": "pgvector",
-        "category": "AI & Database",
-        "icon": "vector",
+        "name": "MySQL",
+        "category": "Database",
+        "icon": "database",
         "url": ""
       },
       {
         "name": "Apache Airflow",
-        "category": "Data",
+        "category": "Data Engineering",
         "icon": "workflow",
         "url": ""
       },
       {
         "name": "dbt",
-        "category": "Data",
+        "category": "Data Engineering",
         "icon": "git-branch",
         "url": ""
       },
@@ -299,9 +324,33 @@
         "url": ""
       },
       {
-        "name": "Docker",
-        "category": "DevOps",
-        "icon": "container",
+        "name": "Metabase",
+        "category": "Analytics",
+        "icon": "chart",
+        "url": ""
+      },
+      {
+        "name": "Excel",
+        "category": "Analytics",
+        "icon": "chart",
+        "url": ""
+      },
+      {
+        "name": "Hugging Face",
+        "category": "AI",
+        "icon": "bot",
+        "url": ""
+      },
+      {
+        "name": "R",
+        "category": "Data Science",
+        "icon": "chart",
+        "url": ""
+      },
+      {
+        "name": "Git / GitHub",
+        "category": "Tools",
+        "icon": "git-branch",
         "url": ""
       }
     ]
@@ -309,116 +358,186 @@
   "skills": {
     "enabled": true,
     "eyebrow": "COMPÉTENCES",
-    "title": "Une expertise organisée par capacité",
-    "description": "Les niveaux servent d'indicateur visuel et peuvent être ajustés directement dans le fichier JSON.",
+    "title": "Compétences techniques actuelles",
+    "description": "Mes compétences couvrent la chaîne complète d'un projet data et IA : collecte, préparation, orchestration, modélisation, analyse, développement de modèles, visualisation et intégration applicative.",
     "categories": [
       {
-        "id": "frontend",
-        "name": "Frontend",
-        "icon": "monitor",
+        "id": "data-engineering",
+        "name": "Data Engineering",
+        "icon": "database",
         "skills": [
           {
-            "name": "ReactJS",
-            "level": 88,
-            "icon": "react"
-          },
-          {
-            "name": "JavaScript",
-            "level": 84,
-            "icon": "javascript"
-          },
-          {
-            "name": "Tailwind / DaisyUI",
+            "name": "Apache Airflow",
             "level": 86,
-            "icon": "tailwind"
-          }
-        ]
-      },
-      {
-        "id": "backend",
-        "name": "Backend & API",
-        "icon": "server",
-        "skills": [
+            "icon": "workflow"
+          },
           {
-            "name": "Python / FastAPI",
+            "name": "dbt",
+            "level": 84,
+            "icon": "git-branch"
+          },
+          {
+            "name": "PostgreSQL / SQL",
+            "level": 87,
+            "icon": "database"
+          },
+          {
+            "name": "ETL / ELT",
             "level": 88,
-            "icon": "python"
+            "icon": "workflow"
           },
           {
-            "name": "Node.js",
-            "level": 78,
-            "icon": "server"
+            "name": "Architecture Médaillon",
+            "level": 82,
+            "icon": "layers"
           },
           {
-            "name": "REST & intégration",
-            "level": 85,
-            "icon": "network"
+            "name": "Qualité des données",
+            "level": 84,
+            "icon": "database"
           }
         ]
       },
       {
-        "id": "ai",
+        "id": "ai-ml",
         "name": "AI & Machine Learning",
         "icon": "brain",
         "skills": [
-          {
-            "name": "RAG & LLM",
-            "level": 84,
-            "icon": "bot"
-          },
           {
             "name": "Machine Learning",
             "level": 82,
             "icon": "brain"
           },
           {
-            "name": "Transformers",
-            "level": 78,
+            "name": "NLP / Transformers",
+            "level": 82,
+            "icon": "cpu"
+          },
+          {
+            "name": "Fine-tuning BERT / CamemBERT",
+            "level": 80,
+            "icon": "bot"
+          },
+          {
+            "name": "RAG / LLM",
+            "level": 80,
+            "icon": "bot"
+          },
+          {
+            "name": "Computer Vision",
+            "level": 76,
+            "icon": "brain"
+          },
+          {
+            "name": "YOLO / CNN",
+            "level": 74,
             "icon": "cpu"
           }
         ]
       },
       {
-        "id": "data",
-        "name": "Data Engineering",
-        "icon": "database",
+        "id": "analytics",
+        "name": "Data Analytics & BI",
+        "icon": "chart",
         "skills": [
           {
-            "name": "PostgreSQL / Data Warehouse",
-            "level": 88,
-            "icon": "database"
-          },
-          {
-            "name": "Airflow / dbt",
-            "level": 84,
-            "icon": "workflow"
-          },
-          {
-            "name": "Power BI / DAX",
+            "name": "Power BI",
             "level": 86,
             "icon": "chart"
+          },
+          {
+            "name": "Excel / Power Query",
+            "level": 84,
+            "icon": "chart"
+          },
+          {
+            "name": "Metabase",
+            "level": 78,
+            "icon": "chart"
+          },
+          {
+            "name": "Analyse statistique",
+            "level": 78,
+            "icon": "chart"
+          },
+          {
+            "name": "Segmentation client",
+            "level": 76,
+            "icon": "layers"
+          },
+          {
+            "name": "KPI & aide à la décision",
+            "level": 86,
+            "icon": "gauge"
           }
         ]
       },
       {
-        "id": "devops",
-        "name": "DevOps & Infrastructure",
-        "icon": "cloud",
+        "id": "fullstack",
+        "name": "Fullstack Development",
+        "icon": "code",
         "skills": [
           {
-            "name": "Docker",
-            "level": 78,
-            "icon": "container"
+            "name": "ReactJS",
+            "level": 82,
+            "icon": "react"
           },
           {
-            "name": "Windows Server / IIS",
-            "level": 80,
+            "name": "JavaScript",
+            "level": 78,
+            "icon": "javascript"
+          },
+          {
+            "name": "Node.js",
+            "level": 76,
             "icon": "server"
           },
           {
-            "name": "Git",
+            "name": "Laravel",
+            "level": 74,
+            "icon": "code"
+          },
+          {
+            "name": "REST API",
             "level": 82,
+            "icon": "network"
+          },
+          {
+            "name": "Bases de données",
+            "level": 84,
+            "icon": "database"
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "name": "Outils & pratiques",
+        "icon": "cloud",
+        "skills": [
+          {
+            "name": "Git / GitHub",
+            "level": 72,
             "icon": "git-branch"
+          },
+          {
+            "name": "Hugging Face",
+            "level": 80,
+            "icon": "bot"
+          },
+          {
+            "name": "R",
+            "level": 68,
+            "icon": "chart"
+          },
+          {
+            "name": "Figma",
+            "level": 45,
+            "icon": "code"
+          },
+          {
+            "name": "Bureautique",
+            "level": 72,
+            "icon": "monitor"
           }
         ]
       }
@@ -427,29 +546,133 @@
   "experience": {
     "enabled": true,
     "eyebrow": "EXPÉRIENCE",
-    "title": "Expérience orientée transformation data",
-    "description": "Une expérience construite autour de cas d'usage industriels et de la transformation de données en outils de pilotage.",
+    "title": "Expériences professionnelles & projets appliqués",
+    "description": "Un parcours qui évolue du développement Fullstack vers la Data Science, l'Intelligence Artificielle et le Data Engineering.",
     "items": [
       {
         "id": 1,
-        "company": "SOMAPRO",
-        "position": "Data Engineer — Projet de mémoire d'ingéniorat",
-        "location": "Madagascar",
-        "startDate": "2026",
-        "endDate": "2026",
-        "current": false,
-        "description": "Conception d'une chaîne data industrielle allant de l'orchestration et la transformation jusqu'au data warehouse, à la BI et aux extensions IA.",
+        "company": "SOMAPRO Madagascar",
+        "position": "Ingénieur IA & Data / Data Engineer",
+        "location": "Antananarivo, Madagascar",
+        "startDate": "Novembre 2025",
+        "endDate": "Aujourd’hui",
+        "current": true,
+        "description": "Conception de solutions data industrielles, de pipelines ETL/ELT et d'outils de pilotage pour exploiter les données de production et préparer des extensions IA.",
         "technologies": [
-          "Airflow",
-          "dbt",
+          "Python",
           "PostgreSQL",
+          "Apache Airflow",
+          "dbt",
           "Power BI",
-          "Python"
+          "Metabase"
         ],
         "achievements": [
-          "Structuration d'un data warehouse exploitable pour l'analytique.",
-          "Mise en place de pipelines de données de production et de données simulées.",
-          "Extension de l'architecture vers des cas d'usage RAG et Text-to-SQL."
+          "Conception et développement d'une application industrielle de collecte de données TRS.",
+          "Analyse des cadences et performances machines.",
+          "Développement d'un pipeline ETL/ELT industriel.",
+          "Mise en place d'une architecture Médaillon Bronze, Silver et Gold.",
+          "Déploiement d'Apache Airflow et intégration de dbt.",
+          "Contrôle qualité automatisé des données.",
+          "Création de dashboards Power BI et Metabase.",
+          "Préparation de l'intégration de modèles IA pour la maintenance prédictive."
+        ]
+      },
+      {
+        "id": 2,
+        "company": "AZ+ Madagascar",
+        "position": "Data Scientist / Ingénieur NLP",
+        "location": "Madagascar",
+        "startDate": "Août 2025",
+        "endDate": "Novembre 2025",
+        "current": false,
+        "description": "Projet NLP centré sur la création de données spécifiques et le fine-tuning d'un modèle CamemBERT pour des requêtes métier.",
+        "technologies": [
+          "Python",
+          "CamemBERT",
+          "Transformers",
+          "Hugging Face",
+          "JSONL"
+        ],
+        "achievements": [
+          "Création et annotation de données au format JSONL.",
+          "Mise en œuvre du fine-tuning d'un modèle CamemBERT.",
+          "Déploiement du modèle sur Hugging Face."
+        ]
+      },
+      {
+        "id": 3,
+        "company": "Orange Digital Center Madagascar",
+        "position": "Formation professionnelle — Computer Vision",
+        "location": "Madagascar",
+        "startDate": "Juin 2025",
+        "endDate": "",
+        "current": false,
+        "description": "Formation appliquée en traitement d'images, classification, segmentation et optimisation de modèles pré-entraînés.",
+        "technologies": [
+          "Python",
+          "Computer Vision",
+          "YOLO",
+          "CNN"
+        ],
+        "achievements": [
+          "Acquisition des concepts fondamentaux du traitement d’images.",
+          "Implémentation d'algorithmes de classification et segmentation d'objets.",
+          "Optimisation de modèles pré-entraînés YOLO et CNN pour des tâches spécifiques."
+        ]
+      },
+      {
+        "id": 4,
+        "company": "Université ACEEM Manakambahiny",
+        "position": "Développeur Laravel — Projet TokenPay",
+        "location": "Madagascar",
+        "startDate": "Août 2024",
+        "endDate": "Novembre 2024",
+        "current": false,
+        "description": "Conception et réalisation d'un système de paiement numérique de produits de stand lors d'événements.",
+        "technologies": [
+          "Laravel",
+          "PHP",
+          "Base de données"
+        ],
+        "achievements": [
+          "Conception de l’application TokenPay.",
+          "Développement du système de gestion des paiements numériques."
+        ]
+      },
+      {
+        "id": 5,
+        "company": "ENI Fianarantsoa",
+        "position": "Développeur ReactJS / Laravel",
+        "location": "Fianarantsoa, Madagascar",
+        "startDate": "Mai 2024",
+        "endDate": "",
+        "current": false,
+        "description": "Conception et réalisation d'une application de gestion des congés.",
+        "technologies": [
+          "ReactJS",
+          "Laravel"
+        ],
+        "achievements": [
+          "Développement de l’interface avec ReactJS.",
+          "Développement du backend avec Laravel."
+        ]
+      },
+      {
+        "id": 6,
+        "company": "CIDST Tsimbazaza",
+        "position": "Développeur ReactJS / Node.js",
+        "location": "Antananarivo, Madagascar",
+        "startDate": "Septembre 2023",
+        "endDate": "Novembre 2023",
+        "current": false,
+        "description": "Conception et réalisation d'une plateforme de formations en ligne.",
+        "technologies": [
+          "ReactJS",
+          "Node.js"
+        ],
+        "achievements": [
+          "Conception d’une plateforme web de formation.",
+          "Développement frontend ReactJS et backend Node.js."
         ]
       }
     ],
@@ -458,8 +681,8 @@
   "projects": {
     "enabled": true,
     "eyebrow": "PROJETS",
-    "title": "Systèmes construits autour de problèmes réels",
-    "description": "Une sélection de projets mêlant data platform, IA appliquée, analytics industriel et développement fullstack.",
+    "title": "Projets Data, IA & Software",
+    "description": "Une sélection de projets couvrant Data Engineering, NLP, Computer Vision, Analytics industriel et développement d’applications.",
     "allFilterLabel": "Tous",
     "featuredLabel": "Projet phare",
     "statusLabels": {
@@ -499,14 +722,16 @@
           "dbt",
           "PostgreSQL",
           "Power BI",
+          "Metabase",
           "Python"
         ],
         "features": [
+          "Collecte et structuration de données industrielles",
           "Orchestration ETL/ELT",
-          "Modélisation du data warehouse",
+          "Architecture Médaillon Bronze / Silver / Gold",
           "Transformations dbt",
-          "Reporting Power BI",
-          "Qualité et structuration des données"
+          "Contrôle qualité automatisé",
+          "Reporting Power BI et Metabase"
         ],
         "challenges": [
           "Hétérogénéité des données de production",
@@ -514,8 +739,9 @@
           "Préparation d'une base analytique réutilisable"
         ],
         "results": [
-          "Data warehouse structuré et exploitable",
-          "Socle réutilisable pour BI, ML et assistants intelligents"
+          "Socle data industriel structuré et exploitable",
+          "Pipelines orchestrés et transformations reproductibles",
+          "Base prête pour la BI, le Machine Learning et les assistants intelligents"
         ],
         "details": {
           "context": "Projet de transformation de données industrielles destiné à créer un socle commun pour le reporting et les extensions analytiques.",
@@ -526,8 +752,8 @@
         "github": "",
         "demo": "",
         "documentation": "",
-        "date": "2026",
-        "status": "completed",
+        "date": "2025–2026",
+        "status": "in-progress",
         "icon": "workflow"
       },
       {
@@ -669,61 +895,319 @@
         "date": "2026",
         "status": "in-progress",
         "icon": "code"
+      },
+      {
+        "id": 5,
+        "title": "ValiBERT — Fine-tuning BERT pour requêtes métier",
+        "slug": "valibert-finetuning-bert",
+        "featured": true,
+        "category": "AI",
+        "shortDescription": "Fine-tuning d'une architecture BERT/CamemBERT pour améliorer la compréhension sémantique de requêtes métier.",
+        "description": "Projet NLP basé sur la création de données spécifiques, leur annotation au format JSONL, le fine-tuning d'un modèle CamemBERT et son déploiement sur Hugging Face.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "Python",
+          "CamemBERT",
+          "Transformers",
+          "Hugging Face",
+          "JSONL"
+        ],
+        "features": [
+          "Création et annotation de données",
+          "Préparation de dataset JSONL",
+          "Fine-tuning CamemBERT",
+          "Évaluation du modèle",
+          "Déploiement sur Hugging Face"
+        ],
+        "challenges": [
+          "Adapter un modèle de langue à un vocabulaire métier spécifique",
+          "Construire un dataset exploitable pour le fine-tuning",
+          "Préserver la qualité des annotations"
+        ],
+        "results": [
+          "Pipeline de fine-tuning opérationnel",
+          "Modèle déployé sur Hugging Face"
+        ],
+        "details": {
+          "context": "Projet NLP réalisé chez AZ+ Madagascar.",
+          "problem": "Les modèles génériques doivent être adaptés pour mieux comprendre des formulations métier spécifiques.",
+          "solution": "Créer des données annotées, fine-tuner CamemBERT puis déployer le modèle pour expérimentation.",
+          "architecture": "Données métier → Annotation JSONL → Fine-tuning CamemBERT → Évaluation → Hugging Face"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2025",
+        "status": "completed",
+        "icon": "brain"
+      },
+      {
+        "id": 6,
+        "title": "Computer Vision — YOLO & CNN",
+        "slug": "computer-vision-yolo-cnn",
+        "featured": false,
+        "category": "AI",
+        "shortDescription": "Projet de formation appliquée en classification, segmentation et optimisation de modèles de vision.",
+        "description": "Travaux pratiques en traitement d'images incluant classification, segmentation et optimisation de modèles pré-entraînés YOLO et CNN.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "Python",
+          "Computer Vision",
+          "YOLO",
+          "CNN"
+        ],
+        "features": [
+          "Traitement d’images",
+          "Classification d’objets",
+          "Segmentation",
+          "Optimisation de modèles pré-entraînés"
+        ],
+        "challenges": [
+          "Comprendre les fondamentaux des architectures de vision",
+          "Adapter des modèles à des tâches spécifiques"
+        ],
+        "results": [
+          "Mise en pratique de pipelines de Computer Vision",
+          "Expérimentation avec YOLO et CNN"
+        ],
+        "details": {
+          "context": "Formation professionnelle à Orange Digital Center Madagascar.",
+          "problem": "Passer de la théorie du traitement d’images à l’implémentation de modèles.",
+          "solution": "Mettre en pratique classification, segmentation et optimisation de modèles pré-entraînés.",
+          "architecture": "Images → Prétraitement → Modèle YOLO/CNN → Classification / Segmentation → Évaluation"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2025",
+        "status": "completed",
+        "icon": "brain"
+      },
+      {
+        "id": 7,
+        "title": "Analyse de ventes & segmentation client",
+        "slug": "sales-analysis-customer-segmentation",
+        "featured": false,
+        "category": "Analytics",
+        "shortDescription": "Préparation de données de ventes, visualisation et segmentation client pour soutenir les décisions marketing.",
+        "description": "Projet d'analyse de données de ventes avec nettoyage, visualisation, création de dashboards et segmentation client basée sur les comportements d'achat.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "Python",
+          "Excel",
+          "SQL",
+          "Power BI"
+        ],
+        "features": [
+          "Nettoyage des données de ventes",
+          "Analyse exploratoire",
+          "Visualisation des tendances",
+          "Dashboard Power BI",
+          "Segmentation client"
+        ],
+        "challenges": [
+          "Garantir la qualité des données brutes",
+          "Identifier des segments clients pertinents",
+          "Restituer les analyses de manière décisionnelle"
+        ],
+        "results": [
+          "Visualisations des tendances de ventes",
+          "Méthode de segmentation client orientée marketing",
+          "Rapports interactifs Power BI"
+        ],
+        "details": {
+          "context": "Projet d’analyse de données orienté ventes et marketing.",
+          "problem": "Les données de ventes brutes doivent être fiabilisées avant de pouvoir identifier tendances et segments.",
+          "solution": "Préparer les données, construire des visualisations et appliquer une segmentation basée sur les comportements d’achat.",
+          "architecture": "Données de ventes → Nettoyage → Analyse → Segmentation → Power BI"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2025",
+        "status": "completed",
+        "icon": "chart"
+      },
+      {
+        "id": 8,
+        "title": "TokenPay — Paiement numérique événementiel",
+        "slug": "tokenpay-digital-payment",
+        "featured": false,
+        "category": "Web",
+        "shortDescription": "Système de paiement numérique destiné aux produits de stands lors d’événements.",
+        "description": "Application développée dans le cadre d’un projet à l’Université ACEEM Manakambahiny.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "Laravel",
+          "PHP",
+          "Base de données"
+        ],
+        "features": [
+          "Gestion des produits",
+          "Gestion des paiements numériques",
+          "Suivi des transactions"
+        ],
+        "challenges": [
+          "Concevoir un workflow simple pour un contexte événementiel",
+          "Structurer les données de transaction"
+        ],
+        "results": [
+          "Application fonctionnelle de paiement numérique événementiel"
+        ],
+        "details": {
+          "context": "Projet réalisé d’août à novembre 2024.",
+          "problem": "Digitaliser les paiements de produits proposés sur des stands lors d’un événement.",
+          "solution": "Développer une application Laravel centrée sur la gestion des paiements et des transactions.",
+          "architecture": "Interface Web → Laravel → Base de données"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2024",
+        "status": "completed",
+        "icon": "code"
+      },
+      {
+        "id": 9,
+        "title": "Application de gestion des congés",
+        "slug": "leave-management-app",
+        "featured": false,
+        "category": "Web",
+        "shortDescription": "Application web de gestion des congés développée avec ReactJS et Laravel.",
+        "description": "Projet réalisé à l’ENI Fianarantsoa pour digitaliser la gestion des demandes de congés.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "ReactJS",
+          "Laravel"
+        ],
+        "features": [
+          "Gestion des demandes de congés",
+          "Interface ReactJS",
+          "Backend Laravel"
+        ],
+        "challenges": [
+          "Structurer le workflow des demandes",
+          "Connecter frontend et backend"
+        ],
+        "results": [
+          "Application web fonctionnelle de gestion des congés"
+        ],
+        "details": {
+          "context": "Projet réalisé en mai 2024 à l’ENI Fianarantsoa.",
+          "problem": "Digitaliser le suivi des demandes de congés.",
+          "solution": "Développer une interface ReactJS connectée à un backend Laravel.",
+          "architecture": "ReactJS → API Laravel → Base de données"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2024",
+        "status": "completed",
+        "icon": "code"
+      },
+      {
+        "id": 10,
+        "title": "Plateforme de formations en ligne",
+        "slug": "online-learning-platform",
+        "featured": false,
+        "category": "Web",
+        "shortDescription": "Plateforme web de formations en ligne développée avec ReactJS et Node.js.",
+        "description": "Projet réalisé au CIDST Tsimbazaza de septembre à novembre 2023.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "ReactJS",
+          "Node.js"
+        ],
+        "features": [
+          "Interface de plateforme de formation",
+          "Gestion du contenu",
+          "Frontend ReactJS",
+          "Backend Node.js"
+        ],
+        "challenges": [
+          "Structurer une application web complète",
+          "Intégrer frontend et backend"
+        ],
+        "results": [
+          "Plateforme de formation en ligne réalisée"
+        ],
+        "details": {
+          "context": "Projet réalisé au CIDST Tsimbazaza.",
+          "problem": "Mettre à disposition une plateforme numérique pour proposer des contenus de formation.",
+          "solution": "Concevoir une application ReactJS avec backend Node.js.",
+          "architecture": "ReactJS → Node.js → Base de données"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2023",
+        "status": "completed",
+        "icon": "code"
       }
     ]
   },
   "services": {
     "enabled": true,
     "eyebrow": "SERVICES",
-    "title": "De l'idée au système exploitable",
-    "description": "Des prestations qui couvrent la chaîne complète : interface, backend, IA, données et pilotage.",
+    "title": "Compétences mobilisables sur des projets concrets",
+    "description": "De la donnée brute jusqu'à l'application, au modèle IA et au dashboard décisionnel.",
     "items": [
       {
         "id": 1,
-        "title": "Développement Fullstack",
-        "description": "Conception d'applications web modernes, performantes et maintenables.",
-        "icon": "code",
-        "features": [
-          "React & interfaces modernes",
-          "API & backend",
-          "Intégration de bases de données",
-          "Temps réel et automatisation"
-        ]
-      },
-      {
-        "id": 2,
-        "title": "AI Engineering",
-        "description": "Intégration de systèmes intelligents orientés usages réels et données métier.",
-        "icon": "brain",
-        "features": [
-          "RAG & LLM",
-          "Text-to-SQL",
-          "Machine Learning",
-          "Prototypage et évaluation"
-        ]
-      },
-      {
-        "id": 3,
         "title": "Data Engineering",
-        "description": "Construction de pipelines fiables et d'architectures data prêtes pour l'analytics.",
+        "description": "Conception de pipelines de données fiables et d'architectures prêtes pour l'analytics et l'IA.",
         "icon": "database",
         "features": [
           "ETL / ELT",
-          "Airflow & dbt",
-          "Data warehouse",
+          "Apache Airflow",
+          "dbt",
+          "PostgreSQL",
           "Qualité des données"
         ]
       },
       {
-        "id": 4,
-        "title": "Data Analytics",
-        "description": "Transformation de données en indicateurs clairs pour les responsables et la direction.",
+        "id": 2,
+        "title": "AI & Machine Learning",
+        "description": "Développement et expérimentation de solutions IA adaptées aux problématiques métier.",
+        "icon": "brain",
+        "features": [
+          "Machine Learning",
+          "NLP / Transformers",
+          "RAG / LLM",
+          "Computer Vision",
+          "Fine-tuning"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Data Analytics & BI",
+        "description": "Transformation de données en indicateurs, analyses et outils d'aide à la décision.",
         "icon": "chart",
         "features": [
           "Power BI",
-          "DAX & modèles",
-          "KPI industriels",
-          "Aide à la décision"
+          "Metabase",
+          "Excel",
+          "KPI",
+          "Segmentation & analyse"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Développement Fullstack",
+        "description": "Conception d’applications web et APIs connectées aux données et aux services métier.",
+        "icon": "code",
+        "features": [
+          "ReactJS",
+          "Node.js",
+          "Laravel",
+          "REST API",
+          "Bases de données"
         ]
       }
     ]
@@ -731,26 +1215,81 @@
   "education": {
     "enabled": true,
     "eyebrow": "FORMATION",
-    "title": "Formation & recherche appliquée",
-    "description": "Un parcours orienté ingénierie, data et intelligence artificielle.",
+    "title": "Formation académique",
+    "description": "Un parcours progressif du Génie Logiciel vers la Data Science et l’Intelligence Artificielle.",
     "items": [
       {
         "id": 1,
-        "institution": "",
-        "degree": "Ingéniorat — niveau M2",
-        "field": "Data Science, Intelligence Artificielle & Génie logiciel",
-        "startDate": "",
-        "endDate": "En cours",
-        "description": "Préparation d'un mémoire d'ingéniorat avec une forte composante Data Engineering, analytics et extensions IA."
+        "institution": "École Nationale d'Informatique (ENI), Fianarantsoa",
+        "degree": "Master 2 en Intelligence Artificielle",
+        "field": "Gouvernance et Inngénierie de données",
+        "startDate": "2025",
+        "endDate": "2026",
+        "description": "Diplôme d'ingéniorat en cours, orienté Intelligence Artificielle et Data."
+      },
+      {
+        "id": 2,
+        "institution": "École Nationale d'Informatique (ENI), Fianarantsoa",
+        "degree": "Master 1 en Intelligence Artificielle",
+        "field": "Gouvernance et Ingénierie de données",
+        "startDate": "2024",
+        "endDate": "2025",
+        "description": "Approfondissement en Data Science, gouvernance et ingénierie des données."
+      },
+      {
+        "id": 3,
+        "institution": "École Nationale d'Informatique (ENI), Fianarantsoa",
+        "degree": "Licence Professionnelle",
+        "field": "Génie Logiciel et Base de données",
+        "startDate": "2023",
+        "endDate": "2024",
+        "description": "Formation en développement logiciel, bases de données et conception d’applications."
+      },
+      {
+        "id": 4,
+        "institution": "Faculté des Sciences, Ankatso, Antananarivo",
+        "degree": "Première année de Licence",
+        "field": "Mathématiques et Informatique",
+        "startDate": "2020",
+        "endDate": "2021",
+        "description": ""
+      },
+      {
+        "id": 5,
+        "institution": "Lycée Catholique Notre Dame de l'Assomption, Mahitsy",
+        "degree": "Baccalauréat série C",
+        "field": "Scientifique",
+        "startDate": "2019",
+        "endDate": "2019",
+        "description": ""
       }
     ]
   },
   "certifications": {
-    "enabled": false,
-    "eyebrow": "CERTIFICATIONS",
-    "title": "Certifications",
-    "description": "Ajoutez vos certifications dans portfolio.json puis activez cette section.",
-    "items": [],
+    "enabled": true,
+    "eyebrow": "FORMATIONS & CERTIFICATIONS",
+    "title": "Formations professionnelles & distinctions",
+    "description": "Formations et participations techniques complémentaires au parcours académique.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Formation professionnelle en Vision par Ordinateur",
+        "issuer": "Orange Digital Center Madagascar",
+        "date": "2025",
+        "credentialId": "",
+        "url": "",
+        "logo": ""
+      },
+      {
+        "id": 2,
+        "name": "Huawei ICT Competition — Cloud Track",
+        "issuer": "Huawei ICT Competition / ENI Fianarantsoa",
+        "date": "2022",
+        "credentialId": "",
+        "url": "",
+        "logo": ""
+      }
+    ],
     "credentialLabel": "Voir le certificat"
   },
   "testimonials": {
@@ -764,23 +1303,23 @@
     {
       "name": "GitHub",
       "icon": "github",
-      "url": ""
+      "url": "https://github.com/valisoa2002"
     },
     {
       "name": "LinkedIn",
       "icon": "linkedin",
-      "url": ""
+      "url": "https://www.linkedin.com/in/valisoa-harijaona-823154387"
     }
   ],
   "contact": {
     "enabled": true,
     "eyebrow": "CONTACT",
-    "title": "Construisons quelque chose d'utile",
-    "description": "Une opportunité, un produit à construire, un problème data à structurer ou un cas d'usage IA à explorer ? Échangeons.",
-    "email": "",
-    "phone": "",
-    "location": "Madagascar",
-    "availability": "Ouvert aux collaborations, projets techniques et opportunités en AI, Data & Software Engineering.",
+    "title": "Échangeons autour d’un projet Data, IA ou Software",
+    "description": "Vous recherchez un profil capable de relier Data Engineering, Intelligence Artificielle, Analytics et développement logiciel ? Je suis ouvert aux collaborations et opportunités.",
+    "email": "valisoaharijaona@gmail.com",
+    "phone": "+261 34 41 439 97",
+    "location": "Mahitsy, Antananarivo, Madagascar",
+    "availability": "Ouvert aux opportunités en AI Engineering, Data Engineering, Data Science et développement logiciel.",
     "ctaLabel": "Envoyer le message",
     "form": {
       "nameLabel": "Nom",
@@ -796,8 +1335,8 @@
     }
   },
   "footer": {
-    "copyright": "© 2026 Valisoa. Tous droits réservés.",
-    "tagline": "Designed around AI, Data & Software Engineering.",
+    "copyright": "© 2026 Valisoa Nathanaël Harijaona. Tous droits réservés.",
+    "tagline": "AI Engineering · Data Engineering · Data Science · Software Engineering",
     "links": [
       {
         "label": "Accueil",
@@ -833,7 +1372,7 @@
     "projects": true,
     "services": true,
     "education": true,
-    "certifications": false,
+    "certifications": true,
     "testimonials": false,
     "contact": true
   }
