@@ -1,0 +1,821 @@
+{
+  "meta": {
+    "siteTitle": "Portfolio — Valisoa | AI, Software & Data Engineer",
+    "description": "Portfolio professionnel de Valisoa : Fullstack Developer, AI Engineer et Data Engineer, spécialisé en applications intelligentes, data platforms et analytics industriels.",
+    "language": "fr",
+    "version": "1.0.0",
+    "keywords": [
+      "AI Engineer",
+      "Fullstack Developer",
+      "Data Engineer",
+      "React",
+      "Python",
+      "RAG",
+      "Data Engineering",
+      "Power BI"
+    ]
+  },
+  "theme": {
+    "defaultTheme": "business",
+    "storageKey": "valisoa-portfolio-theme",
+    "label": "Thème",
+    "options": [
+      {
+        "id": "business",
+        "label": "Business",
+        "mode": "dark"
+      },
+      {
+        "id": "night",
+        "label": "Night",
+        "mode": "dark"
+      },
+      {
+        "id": "dim",
+        "label": "Dim",
+        "mode": "dark"
+      },
+      {
+        "id": "synthwave",
+        "label": "Synthwave",
+        "mode": "dark"
+      },
+      {
+        "id": "corporate",
+        "label": "Corporate",
+        "mode": "light"
+      },
+      {
+        "id": "nord",
+        "label": "Nord",
+        "mode": "light"
+      },
+      {
+        "id": "winter",
+        "label": "Winter",
+        "mode": "light"
+      },
+      {
+        "id": "cupcake",
+        "label": "Cupcake",
+        "mode": "light"
+      }
+    ]
+  },
+  "brand": {
+    "logo": "V",
+    "name": "Valisoa",
+    "descriptor": "AI · DATA · SOFTWARE"
+  },
+  "personal": {
+    "firstName": "Valisoa",
+    "lastName": "",
+    "fullName": "Valisoa",
+    "role": "Fullstack Developer & AI Engineer",
+    "shortRole": "AI Engineer • Fullstack Developer • Data Engineer",
+    "location": "Madagascar",
+    "email": "",
+    "phone": "",
+    "profileImage": "",
+    "resumeUrl": "",
+    "availableForWork": true,
+    "resumeLabel": "CV"
+  },
+  "navigation": [
+    {
+      "label": "Accueil",
+      "target": "#home"
+    },
+    {
+      "label": "À propos",
+      "target": "#about"
+    },
+    {
+      "label": "Compétences",
+      "target": "#skills"
+    },
+    {
+      "label": "Expérience",
+      "target": "#experience"
+    },
+    {
+      "label": "Projets",
+      "target": "#projects"
+    },
+    {
+      "label": "Services",
+      "target": "#services"
+    },
+    {
+      "label": "Contact",
+      "target": "#contact"
+    }
+  ],
+  "hero": {
+    "enabled": true,
+    "eyebrow": "AI • DATA • SOFTWARE",
+    "greeting": "Bonjour, je suis",
+    "title": "Valisoa",
+    "subtitle": "AI & Data Engineer · Fullstack Developer",
+    "description": "Je transforme les données, l'intelligence artificielle et le logiciel en solutions numériques utiles, fiables et orientées décision.",
+    "availabilityText": "Disponible pour des projets ambitieux",
+    "primaryButton": {
+      "label": "Voir mes projets",
+      "target": "#projects",
+      "icon": "arrow-right"
+    },
+    "secondaryButton": {
+      "label": "Me contacter",
+      "target": "#contact",
+      "icon": "mail"
+    },
+    "technologies": [
+      "React",
+      "Python",
+      "RAG / LLM",
+      "Data Engineering",
+      "PostgreSQL",
+      "Power BI"
+    ],
+    "visual": {
+      "badge": "ENGINEERING PROFILE",
+      "headline": "Intelligence + Data + Software",
+      "subline": "Des systèmes pensés de la donnée brute jusqu'à l'expérience utilisateur.",
+      "nodes": [
+        {
+          "label": "AI",
+          "icon": "brain"
+        },
+        {
+          "label": "DATA",
+          "icon": "database"
+        },
+        {
+          "label": "FULLSTACK",
+          "icon": "code"
+        }
+      ]
+    }
+  },
+  "about": {
+    "enabled": true,
+    "eyebrow": "À PROPOS",
+    "title": "Construire des solutions qui relient logiciel, IA et données",
+    "description": "Mon approche combine développement fullstack, ingénierie des données et intelligence artificielle. Je m'intéresse particulièrement aux systèmes qui transforment des données opérationnelles en applications, automatisations et outils d'aide à la décision.",
+    "secondaryDescription": "Je privilégie les architectures pragmatiques, maintenables et observables : une solution doit être techniquement solide, mais surtout réellement exploitable par les équipes métier.",
+    "highlights": [
+      {
+        "icon": "brain",
+        "title": "AI Engineering",
+        "text": "RAG, LLM, Text-to-SQL, ML et expérimentation appliquée."
+      },
+      {
+        "icon": "workflow",
+        "title": "Data Engineering",
+        "text": "ETL/ELT, orchestration, data warehouse et qualité des données."
+      },
+      {
+        "icon": "code",
+        "title": "Software Engineering",
+        "text": "Applications React, API, temps réel et intégration de systèmes."
+      }
+    ]
+  },
+  "stats": {
+    "enabled": true,
+    "items": [
+      {
+        "label": "Projets structurants",
+        "value": "4+",
+        "icon": "folder"
+      },
+      {
+        "label": "Technologies pratiquées",
+        "value": "20+",
+        "icon": "code"
+      },
+      {
+        "label": "Domaines complémentaires",
+        "value": "3",
+        "suffix": "piliers",
+        "icon": "layers"
+      },
+      {
+        "label": "Orientation impact",
+        "value": "100%",
+        "icon": "gauge"
+      }
+    ]
+  },
+  "techStack": {
+    "enabled": true,
+    "eyebrow": "STACK",
+    "title": "Technologies principales",
+    "description": "Un socle transversal pour concevoir des produits, pipelines et systèmes intelligents de bout en bout.",
+    "items": [
+      {
+        "name": "ReactJS",
+        "category": "Frontend",
+        "icon": "react",
+        "url": ""
+      },
+      {
+        "name": "JavaScript",
+        "category": "Frontend",
+        "icon": "javascript",
+        "url": ""
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "Frontend",
+        "icon": "tailwind",
+        "url": ""
+      },
+      {
+        "name": "Python",
+        "category": "AI & Data",
+        "icon": "python",
+        "url": ""
+      },
+      {
+        "name": "FastAPI",
+        "category": "Backend",
+        "icon": "zap",
+        "url": ""
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "server",
+        "url": ""
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "icon": "postgres",
+        "url": ""
+      },
+      {
+        "name": "pgvector",
+        "category": "AI & Database",
+        "icon": "vector",
+        "url": ""
+      },
+      {
+        "name": "Apache Airflow",
+        "category": "Data",
+        "icon": "workflow",
+        "url": ""
+      },
+      {
+        "name": "dbt",
+        "category": "Data",
+        "icon": "git-branch",
+        "url": ""
+      },
+      {
+        "name": "Power BI",
+        "category": "Analytics",
+        "icon": "chart",
+        "url": ""
+      },
+      {
+        "name": "Docker",
+        "category": "DevOps",
+        "icon": "container",
+        "url": ""
+      }
+    ]
+  },
+  "skills": {
+    "enabled": true,
+    "eyebrow": "COMPÉTENCES",
+    "title": "Une expertise organisée par capacité",
+    "description": "Les niveaux servent d'indicateur visuel et peuvent être ajustés directement dans le fichier JSON.",
+    "categories": [
+      {
+        "id": "frontend",
+        "name": "Frontend",
+        "icon": "monitor",
+        "skills": [
+          {
+            "name": "ReactJS",
+            "level": 88,
+            "icon": "react"
+          },
+          {
+            "name": "JavaScript",
+            "level": 84,
+            "icon": "javascript"
+          },
+          {
+            "name": "Tailwind / DaisyUI",
+            "level": 86,
+            "icon": "tailwind"
+          }
+        ]
+      },
+      {
+        "id": "backend",
+        "name": "Backend & API",
+        "icon": "server",
+        "skills": [
+          {
+            "name": "Python / FastAPI",
+            "level": 88,
+            "icon": "python"
+          },
+          {
+            "name": "Node.js",
+            "level": 78,
+            "icon": "server"
+          },
+          {
+            "name": "REST & intégration",
+            "level": 85,
+            "icon": "network"
+          }
+        ]
+      },
+      {
+        "id": "ai",
+        "name": "AI & Machine Learning",
+        "icon": "brain",
+        "skills": [
+          {
+            "name": "RAG & LLM",
+            "level": 84,
+            "icon": "bot"
+          },
+          {
+            "name": "Machine Learning",
+            "level": 82,
+            "icon": "brain"
+          },
+          {
+            "name": "Transformers",
+            "level": 78,
+            "icon": "cpu"
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "name": "Data Engineering",
+        "icon": "database",
+        "skills": [
+          {
+            "name": "PostgreSQL / Data Warehouse",
+            "level": 88,
+            "icon": "database"
+          },
+          {
+            "name": "Airflow / dbt",
+            "level": 84,
+            "icon": "workflow"
+          },
+          {
+            "name": "Power BI / DAX",
+            "level": 86,
+            "icon": "chart"
+          }
+        ]
+      },
+      {
+        "id": "devops",
+        "name": "DevOps & Infrastructure",
+        "icon": "cloud",
+        "skills": [
+          {
+            "name": "Docker",
+            "level": 78,
+            "icon": "container"
+          },
+          {
+            "name": "Windows Server / IIS",
+            "level": 80,
+            "icon": "server"
+          },
+          {
+            "name": "Git",
+            "level": 82,
+            "icon": "git-branch"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "enabled": true,
+    "eyebrow": "EXPÉRIENCE",
+    "title": "Expérience orientée transformation data",
+    "description": "Une expérience construite autour de cas d'usage industriels et de la transformation de données en outils de pilotage.",
+    "items": [
+      {
+        "id": 1,
+        "company": "SOMAPRO",
+        "position": "Data Engineer — Projet de mémoire d'ingéniorat",
+        "location": "Madagascar",
+        "startDate": "2026",
+        "endDate": "2026",
+        "current": false,
+        "description": "Conception d'une chaîne data industrielle allant de l'orchestration et la transformation jusqu'au data warehouse, à la BI et aux extensions IA.",
+        "technologies": [
+          "Airflow",
+          "dbt",
+          "PostgreSQL",
+          "Power BI",
+          "Python"
+        ],
+        "achievements": [
+          "Structuration d'un data warehouse exploitable pour l'analytique.",
+          "Mise en place de pipelines de données de production et de données simulées.",
+          "Extension de l'architecture vers des cas d'usage RAG et Text-to-SQL."
+        ]
+      }
+    ],
+    "currentLabel": "Aujourd’hui"
+  },
+  "projects": {
+    "enabled": true,
+    "eyebrow": "PROJETS",
+    "title": "Systèmes construits autour de problèmes réels",
+    "description": "Une sélection de projets mêlant data platform, IA appliquée, analytics industriel et développement fullstack.",
+    "allFilterLabel": "Tous",
+    "featuredLabel": "Projet phare",
+    "statusLabels": {
+      "completed": "Terminé",
+      "in-progress": "En cours",
+      "prototype": "Prototype"
+    },
+    "actions": {
+      "details": "Explorer le projet",
+      "github": "GitHub",
+      "demo": "Live Demo",
+      "documentation": "Documentation"
+    },
+    "modal": {
+      "closeLabel": "Fermer",
+      "contextLabel": "Contexte",
+      "problemLabel": "Problème",
+      "solutionLabel": "Solution",
+      "architectureLabel": "Architecture",
+      "featuresLabel": "Fonctionnalités",
+      "challengesLabel": "Défis",
+      "resultsLabel": "Résultats"
+    },
+    "items": [
+      {
+        "id": 1,
+        "title": "PRISM — Industrial Data Platform",
+        "slug": "prism-industrial-data-platform",
+        "featured": true,
+        "category": "Data",
+        "shortDescription": "Plateforme de données industrielles orchestrée pour fiabiliser, transformer et analyser les données de production.",
+        "description": "Architecture data organisée autour d'Airflow, dbt et PostgreSQL, avec un data warehouse exploitable par Power BI et extensible vers des usages analytiques et IA.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "Apache Airflow",
+          "dbt",
+          "PostgreSQL",
+          "Power BI",
+          "Python"
+        ],
+        "features": [
+          "Orchestration ETL/ELT",
+          "Modélisation du data warehouse",
+          "Transformations dbt",
+          "Reporting Power BI",
+          "Qualité et structuration des données"
+        ],
+        "challenges": [
+          "Hétérogénéité des données de production",
+          "Besoin de traçabilité et de fiabilité",
+          "Préparation d'une base analytique réutilisable"
+        ],
+        "results": [
+          "Data warehouse structuré et exploitable",
+          "Socle réutilisable pour BI, ML et assistants intelligents"
+        ],
+        "details": {
+          "context": "Projet de transformation de données industrielles destiné à créer un socle commun pour le reporting et les extensions analytiques.",
+          "problem": "Les données opérationnelles doivent être consolidées, nettoyées et transformées avant de pouvoir soutenir des indicateurs fiables et des cas d'usage IA.",
+          "solution": "Une architecture orchestrée sépare ingestion, transformation, modélisation et consommation analytique.",
+          "architecture": "Sources industrielles → Airflow → dbt → PostgreSQL Data Warehouse → Power BI / Analytics / IA"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2026",
+        "status": "completed",
+        "icon": "workflow"
+      },
+      {
+        "id": 2,
+        "title": "Assistant RAG + Text-to-SQL",
+        "slug": "rag-text-to-sql-industrial-assistant",
+        "featured": true,
+        "category": "AI",
+        "shortDescription": "Assistant intelligent pour interroger des données métier en langage naturel et obtenir des réponses contextualisées.",
+        "description": "Extension IA de la plateforme data combinant retrieval, données vectorielles et génération de requêtes SQL pour répondre à des questions de direction, marketing et production.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "PostgreSQL",
+          "pgvector",
+          "RAG",
+          "Text-to-SQL"
+        ],
+        "features": [
+          "Questions en langage naturel",
+          "Recherche sémantique",
+          "Text-to-SQL",
+          "Réponses contextualisées",
+          "Connexion au data warehouse"
+        ],
+        "challenges": [
+          "Fiabilité des requêtes SQL générées",
+          "Séparation entre connaissances documentaires et données structurées",
+          "Contrôle du contexte et des réponses"
+        ],
+        "results": [
+          "Architecture backend extensible",
+          "Base prête pour des cas d'usage décisionnels conversationnels"
+        ],
+        "details": {
+          "context": "Les utilisateurs métier ont besoin d'accéder rapidement aux indicateurs sans manipuler directement SQL ou les modèles BI.",
+          "problem": "Une même question peut nécessiter des connaissances documentaires, des données structurées ou les deux.",
+          "solution": "Router intelligemment la question vers le RAG, le Text-to-SQL ou une combinaison des deux, puis synthétiser une réponse exploitable.",
+          "architecture": "UI Chat → API FastAPI → Router → RAG / Text-to-SQL → PostgreSQL + pgvector → Réponse"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2026",
+        "status": "in-progress",
+        "icon": "bot"
+      },
+      {
+        "id": 3,
+        "title": "Industrial Performance Analytics",
+        "slug": "industrial-performance-analytics",
+        "featured": false,
+        "category": "Analytics",
+        "shortDescription": "Outils de pilotage pour suivre productivité, TRS, volumes, temps de préparation et écarts de performance.",
+        "description": "Modèles analytiques et dashboards destinés aux responsables d'atelier et à la direction pour suivre les performances quotidiennes et détecter les dérives.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "Power BI",
+          "Power Query",
+          "DAX",
+          "Excel",
+          "KPI industriels"
+        ],
+        "features": [
+          "Suivi quotidien",
+          "Analyse des temps",
+          "TRS / OEE",
+          "Comparaison des ateliers",
+          "Détection des écarts"
+        ],
+        "challenges": [
+          "Consolider des données opérationnelles",
+          "Garantir des KPI pondérés correctement",
+          "Rendre les analyses accessibles aux responsables"
+        ],
+        "results": [
+          "Vision structurée des performances",
+          "Base de décision pour l'amélioration continue"
+        ],
+        "details": {
+          "context": "Les ateliers disposent de données de production détaillées mais ont besoin d'indicateurs lisibles et comparables dans le temps.",
+          "problem": "Les fichiers bruts et les calculs manuels limitent la réactivité et rendent le suivi difficile.",
+          "solution": "Structurer le modèle de données, formaliser les KPI puis construire des vues de pilotage filtrables.",
+          "architecture": "Excel / Sources production → Power Query → Modèle de données → DAX / KPI → Dashboard"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2026",
+        "status": "completed",
+        "icon": "chart"
+      },
+      {
+        "id": 4,
+        "title": "Factory Operations Web Platform",
+        "slug": "factory-operations-web-platform",
+        "featured": false,
+        "category": "Web",
+        "shortDescription": "Application web modulaire pour digitaliser des opérations industrielles, connecter les données et centraliser les KPI.",
+        "description": "Socle fullstack React/Node avec API, temps réel, PostgreSQL et déploiement derrière IIS, pensé pour faire évoluer progressivement plusieurs modules métier.",
+        "image": "",
+        "gallery": [],
+        "technologies": [
+          "React",
+          "Node.js",
+          "Socket.IO",
+          "PostgreSQL",
+          "IIS",
+          "Docker"
+        ],
+        "features": [
+          "SPA React",
+          "API backend",
+          "Temps réel Socket.IO",
+          "Reverse proxy IIS",
+          "Architecture modulaire"
+        ],
+        "challenges": [
+          "Déploiement sur infrastructure Windows",
+          "Communication temps réel",
+          "Évolution vers plusieurs modules fonctionnels"
+        ],
+        "results": [
+          "Socle fullstack opérationnel",
+          "Architecture évolutive pour de futurs modules"
+        ],
+        "details": {
+          "context": "Digitalisation progressive de processus industriels avec besoin d'une interface web centralisée et accessible sur le réseau local.",
+          "problem": "Les fonctionnalités doivent évoluer sans créer une application monolithique difficile à maintenir.",
+          "solution": "Séparer frontend, API et service temps réel tout en utilisant PostgreSQL comme socle de données.",
+          "architecture": "React SPA → IIS Reverse Proxy → Node API / Socket.IO → PostgreSQL"
+        },
+        "github": "",
+        "demo": "",
+        "documentation": "",
+        "date": "2026",
+        "status": "in-progress",
+        "icon": "code"
+      }
+    ]
+  },
+  "services": {
+    "enabled": true,
+    "eyebrow": "SERVICES",
+    "title": "De l'idée au système exploitable",
+    "description": "Des prestations qui couvrent la chaîne complète : interface, backend, IA, données et pilotage.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Développement Fullstack",
+        "description": "Conception d'applications web modernes, performantes et maintenables.",
+        "icon": "code",
+        "features": [
+          "React & interfaces modernes",
+          "API & backend",
+          "Intégration de bases de données",
+          "Temps réel et automatisation"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "AI Engineering",
+        "description": "Intégration de systèmes intelligents orientés usages réels et données métier.",
+        "icon": "brain",
+        "features": [
+          "RAG & LLM",
+          "Text-to-SQL",
+          "Machine Learning",
+          "Prototypage et évaluation"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Data Engineering",
+        "description": "Construction de pipelines fiables et d'architectures data prêtes pour l'analytics.",
+        "icon": "database",
+        "features": [
+          "ETL / ELT",
+          "Airflow & dbt",
+          "Data warehouse",
+          "Qualité des données"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Data Analytics",
+        "description": "Transformation de données en indicateurs clairs pour les responsables et la direction.",
+        "icon": "chart",
+        "features": [
+          "Power BI",
+          "DAX & modèles",
+          "KPI industriels",
+          "Aide à la décision"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "enabled": true,
+    "eyebrow": "FORMATION",
+    "title": "Formation & recherche appliquée",
+    "description": "Un parcours orienté ingénierie, data et intelligence artificielle.",
+    "items": [
+      {
+        "id": 1,
+        "institution": "",
+        "degree": "Ingéniorat — niveau M2",
+        "field": "Data Science, Intelligence Artificielle & Génie logiciel",
+        "startDate": "",
+        "endDate": "En cours",
+        "description": "Préparation d'un mémoire d'ingéniorat avec une forte composante Data Engineering, analytics et extensions IA."
+      }
+    ]
+  },
+  "certifications": {
+    "enabled": false,
+    "eyebrow": "CERTIFICATIONS",
+    "title": "Certifications",
+    "description": "Ajoutez vos certifications dans portfolio.json puis activez cette section.",
+    "items": [],
+    "credentialLabel": "Voir le certificat"
+  },
+  "testimonials": {
+    "enabled": false,
+    "eyebrow": "TÉMOIGNAGES",
+    "title": "Ils ont travaillé avec moi",
+    "description": "",
+    "items": []
+  },
+  "socials": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": ""
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "url": ""
+    }
+  ],
+  "contact": {
+    "enabled": true,
+    "eyebrow": "CONTACT",
+    "title": "Construisons quelque chose d'utile",
+    "description": "Une opportunité, un produit à construire, un problème data à structurer ou un cas d'usage IA à explorer ? Échangeons.",
+    "email": "",
+    "phone": "",
+    "location": "Madagascar",
+    "availability": "Ouvert aux collaborations, projets techniques et opportunités en AI, Data & Software Engineering.",
+    "ctaLabel": "Envoyer le message",
+    "form": {
+      "nameLabel": "Nom",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "Votre e-mail",
+      "emailPlaceholder": "vous@exemple.com",
+      "subjectLabel": "Sujet",
+      "subjectPlaceholder": "Parlons de votre projet",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Décrivez brièvement votre besoin...",
+      "noEmailMessage": "Ajoutez d'abord votre adresse e-mail dans src/data/portfolio.json pour activer l'envoi.",
+      "defaultSubject": "Contact depuis le portfolio"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Valisoa. Tous droits réservés.",
+    "tagline": "Designed around AI, Data & Software Engineering.",
+    "links": [
+      {
+        "label": "Accueil",
+        "target": "#home"
+      },
+      {
+        "label": "Projets",
+        "target": "#projects"
+      },
+      {
+        "label": "Contact",
+        "target": "#contact"
+      }
+    ]
+  },
+  "ui": {
+    "skipLink": "Aller au contenu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "backToTop": "Retour en haut",
+    "scrollProgress": "Progression de lecture",
+    "emptyLinkTooltip": "Lien à renseigner dans portfolio.json",
+    "profileAlt": "Portrait de Valisoa",
+    "mainNavigationLabel": "Navigation principale"
+  },
+  "sections": {
+    "hero": true,
+    "about": true,
+    "stats": true,
+    "techStack": true,
+    "skills": true,
+    "experience": true,
+    "projects": true,
+    "services": true,
+    "education": true,
+    "certifications": false,
+    "testimonials": false,
+    "contact": true
+  }
+}
