@@ -194,3 +194,7 @@ npm run build
 ```
 
 Puis tester au minimum en 320 px, 390 px, 768 px, 1024 px et 1440 px.
+
+### Mise à jour 1.1 — Logo cloud technologique
+
+La ligne de technologies du Hero utilise maintenant de grands logos de marques (React, Python, PostgreSQL, Apache Airflow, dbt et Power BI) à la place des badges texte. Les noms restent accessibles au survol/focus et la liste est pilotée depuis `src/data/portfolio.json`.

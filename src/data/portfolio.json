@@ -3,7 +3,7 @@
     "siteTitle": "Portfolio — Valisoa | AI, Software & Data Engineer",
     "description": "Portfolio professionnel de Valisoa : Fullstack Developer, AI Engineer et Data Engineer, spécialisé en applications intelligentes, data platforms et analytics industriels.",
     "language": "fr",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "keywords": [
       "AI Engineer",
       "Fullstack Developer",
@@ -116,7 +116,7 @@
     "eyebrow": "AI • DATA • SOFTWARE",
     "greeting": "Bonjour, je suis",
     "title": "Valisoa",
-    "subtitle": "AI & Data Engineer · Fullstack Developer",
+    "subtitle": "Fullstack Developer & AI Engineer",
     "description": "Je transforme les données, l'intelligence artificielle et le logiciel en solutions numériques utiles, fiables et orientées décision.",
     "availabilityText": "Disponible pour des projets ambitieux",
     "primaryButton": {
@@ -130,12 +130,30 @@
       "icon": "mail"
     },
     "technologies": [
-      "React",
-      "Python",
-      "RAG / LLM",
-      "Data Engineering",
-      "PostgreSQL",
-      "Power BI"
+      {
+        "name": "React",
+        "logo": "react",
+        "color": "#61DAFB",
+        "url": "https://react.dev/"
+      },
+      {
+        "name": "Python",
+        "logo": "python",
+        "color": "#3776AB",
+        "url": "https://www.python.org/"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "postgresql",
+        "color": "#4169E1",
+        "url": "https://www.postgresql.org/"
+      },
+      {
+        "name": "Apache Airflow",
+        "logo": "airflow",
+        "color": "#017CEE",
+        "url": "https://airflow.apache.org/"
+      }
     ],
     "visual": {
       "badge": "ENGINEERING PROFILE",
@@ -155,7 +173,8 @@
           "icon": "code"
         }
       ]
-    }
+    },
+    "technologiesLabel": "Technologies principales"
   },
   "about": {
     "enabled": true,

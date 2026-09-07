@@ -1,6 +1,6 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import Icon from '../ui/Icon'
-import TechBadge from '../ui/TechBadge'
+import TechLogo from '../ui/TechLogo'
 
 export default function Hero({ hero, personal, socials, ui }) {
   const reduceMotion = useReducedMotion()
@@ -31,8 +31,13 @@ export default function Hero({ hero, personal, socials, ui }) {
             </a>
             {personal.resumeUrl && <a href={personal.resumeUrl} target="_blank" rel="noreferrer" className="btn btn-ghost rounded-full">{personal.resumeLabel}<Icon name="external-link" size={16} /></a>}
           </div>
-          <div className="mt-8 flex flex-wrap gap-2">
-            {hero.technologies.map((tech) => <TechBadge key={tech} tech={tech} compact />)}
+          <div className="mt-9">
+            <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.24em] text-base-content/35">{hero.technologiesLabel}</p>
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+              {hero.technologies.map((tech) => (
+                <TechLogo key={typeof tech === 'string' ? tech : tech.name} tech={tech} />
+              ))}
+            </div>
           </div>
           <div className="mt-7 flex gap-2">
             {socials.filter((social) => social.url).map((social) => (
@@ -40,7 +45,6 @@ export default function Hero({ hero, personal, socials, ui }) {
                 <Icon name={social.icon} size={18} />
               </a>
             ))}
-            {!socials.some((social) => social.url) && <span className="text-xs text-base-content/35">{ui.emptyLinkTooltip}</span>}
           </div>
         </motion.div>
 
